@@ -1,0 +1,29 @@
+.wrapper{
+	display: flex;
+	height: 750px;
+	background: #cecece;
+	justify-content: space-around;
+	align-content: baseline;
+	
+}
+
+.cl{
+	width: 100px;
+	height: 100px
+}
+.sq1{
+	background: #C02C2C;
+}
+.sq2{
+	background: #3B7017;
+}
+.sq3{
+	background: #251D71 
+}
+
+	
+@media(max-width: 1024px){
+	.wrapper{
+		flex-direction: column;
+	}
+}
